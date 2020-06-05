@@ -1,0 +1,432 @@
+/*css*/
+
+body { /* propriedade: valor; */
+
+background: #e5e5e5;
+color: #25282B;
+
+margin: 0;
+}
+
+
+.capa {
+width: 100%;
+}
+
+#tudo {
+   width: 90%;
+   max-width: 980px;
+   margin-left: auto;
+   margin-right: 90%;
+   height: 449px;    
+    
+}
+
+p {
+font-size: 18px;
+}
+
+#container {
+
+display: flex; /*deixa uma cpoisa do lado da outras*/
+}
+
+#intro {
+width: 300px;
+margin-right: 50px;
+margin-left: 50px;
+margin: 30px 50px;
+
+}
+#last-ideas {
+width: 930px;
+margin-right: 50px;
+}
+
+main {
+    
+margin-top: 50px;
+margin-bottom: 32px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.idea {
+margin: 50px 10px;
+}
+
+#buttons{
+display: flex;
+justify-content:space-evenly;
+margin-bottom:32px;
+
+}
+
+button{
+background: none;
+color: #FF5E84 ;
+border: none; /* tirar a borda*/
+font-weight: bold; /* é onde eu posso negritar*/
+cursor: pointer;
+outline: none;
+}
+button:hover{ /*linha no botao*/
+text-decoration: underline;
+}
+
+button.fat{
+text-decoration: none;
+width: 150px; /*largura do botao rosa */
+height: 40px; /*altura do botao rosa*/
+border-radius: 6px; /*Arredondamento das bordas do botao*/
+box-shadow: 0px 8px 16px #FF5E8444; /*sombra no botao*/
+
+}
+
+/*classes no css*/
+.fat { /*UM DOS BOTOES*/
+background: #FF5E84;
+color: white;
+
+}
+
+#footer {
+text-align:center ;
+
+}
+
+#footer P {
+color: #FF5E84;
+}
+
+.contact {
+text-align: center;
+margin-top: 50px;
+margin-bottom: 32px;
+}
+
+.agrupacao {
+display: flex;
+margin-right: 0px;
+margin-left: 25px;
+}
+
+.evitar {
+    width: 250px;
+}
+
+.maos {
+width: 290px;
+}
+
+.sintomas {
+text-align: center;
+}
+
+.newsTitulo {
+
+text-align: center;
+}
+
+.newsTexto {
+font: normal 20px arial;
+margin: 50px;
+}
+
+.processo {
+display: flex;
+margin: 0px 20px;
+}
+
+.imagem2verdadeira {
+width: 500px;
+margin-left: 5px;
+background-color: whitesmoke;
+
+padding-right: 150px; /*largura da borda branca*/
+padding-left: 100px;
+padding-bottom: 20px;
+border: 1px solid #FF5E84;
+border-radius: 8px;
+box-shadow: 0 4px 16px -8px #FF5E84 /*sombras na borda*/
+}
+
+.imagem1falso {
+background-color: whitesmoke;
+width: 500px ;
+margin-right: 5px;
+border: 1px solid #FF5E84;
+padding-right: 150px; /*largura da borda branca*/
+padding-left: 100px;
+padding-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 16px -8px #FF5E84
+}
+
+.curi {
+
+background-color: whitesmoke;
+margin-left: 30px ;
+margin-right: 30px;
+border: 1px solid #FF5E84;
+padding-right: 300px;
+padding-left: 440px;
+padding-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 16px -8px #FF5E84;
+
+}
+
+.curititulo {
+text-align: center;
+}
+
+.titulo{
+text-align: center;
+
+}
+
+.texto {
+
+margin-left: 50px ;
+margin-right: 50px;
+
+}
+
+#fazernfazer2 {
+display: flex;
+background-color: whitesmoke;
+margin-left: 100px ;
+margin-right: 100px;
+border: 1px solid #FF5E84;
+padding-right: 150px; /*largura da borda branca*/
+padding-left: 100px;
+padding-bottom: 20px;
+
+border-radius: 8px;
+box-shadow: 0 4px 16px -8px #FF5E84
+}
+
+.Nfazer {
+margin-left: 100px ;
+
+}
+
+.titulotec {
+text-align: center;
+}
+
+.textoo {
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+#materiatec {
+
+margin-left: 90px;
+margin-right: 90px;
+}
+
+.imagem1 {
+text-align: center;
+}
+
+.ima {
+display: flex
+}
+
+.imagem2 {
+margin-left: 30px;
+margin-right: 70px;
+}
+
+
+.cabecalho {
+text-align: center;
+background-color: whitesmoke;
+margin-left: 30px ;
+margin-right: 30px;
+border: 1px solid #FF5E84;
+padding-right: 150px; /*largura da borda branca*/
+padding-left: 100px;
+padding-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 16px -8px #FF5E84
+
+}
+.titulomeme {
+text-align: center;
+}
+
+.materiatexto {
+margin-left: 30px ;
+margin-right: 30px ;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+
+.umnome2 {
+text-align: center;
+}
+
+.umnome3 {
+margin-top:20px;
+}
+
+.umnome4 {
+margin-left: 400px;
+}
+
+.t2 {
+text-align: center;
+}
+
+#memett {
+text-align: center;
+margin-left: 400px;
+}
+
+.final {
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.reflequicao {
+text-align: center;
+}
+
+.comentario {
+margin: 10px;;
+}
+
+.tudopassa {
+text-align: center;
+}
+
+
+/*Modal*/
+
+#modal {
+    background: #FF5E84;
+
+
+    position: absolute;
+    top: 0;
+
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    
+    justify-content: center;   /*conteudo foi para o meio*/
+    transition: 400ms;
+}
+
+
+
+#modal .content {
+    margin-top: 128px;
+
+    color: white;
+
+
+}
+
+
+#modal .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal form {
+     width: 80%;
+    max-width: 800px;
+
+    margin: 0 auto;
+    display:grid;  /*abos grid vao mexer com as colunas ,colocando uma do lado da outra*/
+    grid-template-columns: 1fr 1fr ; /* esse fr significa meio que fraçao basicamente divideindo as colunas para ficar do mesmo tamanho*/
+ gap: 20px;  /*deu distansia das caixas dando espaço*/
+}
+
+.content form div:nth-child(3),
+.content form div:nth-child(4),
+.content form div:nth-child(5) {
+    grid-column: span 2;
+}
+
+form input, form textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    box-sizing: border-box; /* nao deixa o conteudo encavalado um encima do outro*/ 
+
+    border-radius: 6px;
+
+    border: 1px solid rgb(141, 25, 52,0.5);
+
+    outline: none;
+     
+    font-size: 16px;
+}
+
+form label{
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.8px; /*separaçao na fonte*/
+}
+
+form a {
+    width: 150px;
+    height: 40px;
+
+    background-color: #ffffff22;
+    color: white;
+      
+    /*esse esta sendo para o display flex*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 14px;
+      font-weight: bold;
+
+     border-radius: 6px;
+
+    /*para o display grid*/
+    align-self: end;
+    
+    transition: 400ms;
+
+}
+
+form a:hover {
+  background: #fff;
+  color: #FF5E84;
+  text-decoration: none;
+  
+}
+
+ form button {
+     background: white;
+     width: 150px;
+     height: 40px;
+     border-radius: 6px;
+     cursor: pointer;
+     margin-top: 32px; 
+     grid-column: 2;
+     justify-self: end;
+     transition: 400ms;
+
+ }
+    
+ form button:hover {
+     background-color: #0984e3;
+     color: white;
+     text-decoration: none;
+
+ }
+
+ #modal.hide {
+opacity: 0;
+visibility: hidden;    
+ }
